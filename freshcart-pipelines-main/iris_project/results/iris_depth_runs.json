@@ -1,0 +1,52 @@
+[
+  {
+    "max_depth": 1,
+    "accuracy": 0.6333333333333333,
+    "test_accuracy_passed": true,
+    "predictions_csv_created": true,
+    "prediction_rows": 30,
+    "evaluation_branch_output_present": true,
+    "exit_code": 0,
+    "command": "docker exec freshcart-mage mage run --test --runtime-vars {\"max_depth\": 1} /home/src/iris_project iris_classifier"
+  },
+  {
+    "max_depth": 2,
+    "accuracy": 0.9666666666666667,
+    "test_accuracy_passed": true,
+    "predictions_csv_created": true,
+    "prediction_rows": 30,
+    "evaluation_branch_output_present": true,
+    "exit_code": 0,
+    "command": "docker exec freshcart-mage mage run --test --runtime-vars {\"max_depth\": 2} /home/src/iris_project iris_classifier"
+  },
+  {
+    "max_depth": 3,
+    "accuracy": 1.0,
+    "test_accuracy_passed": true,
+    "predictions_csv_created": true,
+    "prediction_rows": 30,
+    "evaluation_branch_output_present": true,
+    "exit_code": 0,
+    "command": "docker exec freshcart-mage mage run --test --runtime-vars {\"max_depth\": 3} /home/src/iris_project iris_classifier"
+  },
+  {
+    "max_depth": 4,
+    "accuracy": 1.0,
+    "test_accuracy_passed": true,
+    "predictions_csv_created": true,
+    "prediction_rows": 30,
+    "evaluation_branch_output_present": true,
+    "exit_code": 0,
+    "command": "docker exec freshcart-mage mage run --test --runtime-vars {\"max_depth\": 4} /home/src/iris_project iris_classifier"
+  },
+  {
+    "max_depth": 5,
+    "accuracy": 1.0,
+    "test_accuracy_passed": true,
+    "predictions_csv_created": true,
+    "prediction_rows": 30,
+    "evaluation_branch_output_present": true,
+    "exit_code": 0,
+    "command": "docker exec freshcart-mage mage run --test --runtime-vars {\"max_depth\": 5} /home/src/iris_project iris_classifier"
+  }
+]

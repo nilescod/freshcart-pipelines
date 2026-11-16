@@ -1,0 +1,41 @@
+{
+  "accuracy": 1.0,
+  "classification_report": {
+    "0": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 10.0
+    },
+    "1": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 9.0
+    },
+    "2": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 11.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 30.0
+    },
+    "weighted avg": {
+      "f1-score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 30.0
+    }
+  },
+  "max_depth": 5,
+  "model_path": "/home/src/iris_project/models/iris_decision_tree.joblib",
+  "predictions_path": "/home/src/iris_project/results/iris_predictions.csv",
+  "test_rows": 30,
+  "train_rows": 120
+}

@@ -1,0 +1,72 @@
+{
+  "accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      0
+    ],
+    [
+      0,
+      0,
+      11
+    ]
+  ],
+  "confusion_matrix_path": "/home/src/iris_project/results/iris_confusion_matrix.csv",
+  "evaluation_path": "/home/src/iris_project/results/iris_model_evaluation.json",
+  "labels": [
+    0,
+    1,
+    2
+  ],
+  "metrics_path": "/home/src/iris_project/results/iris_metrics.csv",
+  "metrics_table": [
+    {
+      "class": "0",
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 10.0
+    },
+    {
+      "class": "1",
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 9.0
+    },
+    {
+      "class": "2",
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 11.0
+    },
+    {
+      "class": "macro avg",
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 30.0
+    },
+    {
+      "class": "weighted avg",
+      "f1_score": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 30.0
+    },
+    {
+      "class": "accuracy",
+      "f1_score": 1.0,
+      "precision": null,
+      "recall": null,
+      "support": 30
+    }
+  ]
+}
